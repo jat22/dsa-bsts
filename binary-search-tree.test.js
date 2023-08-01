@@ -8,6 +8,7 @@ describe("insert", function() {
       .insert(20)
       .insert(10)
       .insert(12);
+      
     expect(binarySearchTree.root.val).toEqual(15);
     expect(binarySearchTree.root.right.val).toEqual(20);
     expect(binarySearchTree.root.left.right.val).toEqual(12);
